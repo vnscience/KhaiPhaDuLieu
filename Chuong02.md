@@ -166,7 +166,7 @@ plt.show()
 **Phân tích kết quả:**
 
   * So sánh 5 dòng đầu tiên của dữ liệu gốc và dữ liệu đã chuẩn hóa, bạn có thể thấy các giá trị đã được biến đổi hoàn toàn.
-  * Bảng `describe` cho thấy `mean` của các cột sau khi chuẩn hóa đều là những số rất gần 0 (ví dụ: `2.85...e-16`) và `std` (độ lệch chuẩn) rất gần 1. Điều này chứng tỏ quá trình chuẩn hóa đã thành công.
+  * Bảng `describe` cho thấy `mean` của các cột sau khi chuẩn hóa đều là những số rất gần 0 (ví dụ: `-1.468455e-15`) và `std` (độ lệch chuẩn) rất gần 1. Điều này chứng tỏ quá trình chuẩn hóa đã thành công.
   * Biểu đồ phân phối cho thấy **hình dạng (shape)** của dữ liệu không thay đổi, nhưng **thang đo trên trục x (scale)** đã được điều chỉnh về trung tâm là 0.
 
 Sau khi hoàn thành chương này, dữ liệu của chúng ta đã "sạch" và "chuẩn", sẵn sàng để đưa vào các mô hình khai phá ở các chương tiếp theo\!
