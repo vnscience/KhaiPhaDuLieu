@@ -81,7 +81,7 @@ Các thư viện cốt lõi bạn cần là:
 Trong Google Colab, các thư viện này thường đã được cài sẵn. Nếu bạn làm việc trên máy tính cá nhân, hãy mở Terminal (hoặc Command Prompt) và chạy:
 
 
-```
+```bash
 pip install pandas scikit-learn matplotlib seaborn
 ```
 
@@ -89,7 +89,7 @@ pip install pandas scikit-learn matplotlib seaborn
 
 Chúng ta sẽ bắt đầu với bộ dữ liệu `Iris` kinh điển. Đây là bước đầu tiên trong quy trình KDD - **Lựa chọn dữ liệu**.
 
-```
+```Python
 # Import các thư viện cần thiết
 import pandas as pd
 from sklearn.datasets import load_iris
